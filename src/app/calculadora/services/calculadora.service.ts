@@ -29,7 +29,7 @@ export class CalculadoraService {
       case CalculadoraService.DIVISAO:
         resultado = num1 / num2;
       break;
-      case CalculadoraService.DIVISAO:
+      case CalculadoraService.MULTIPLICACAO:
         resultado = num1 * num2;
       break;
       default: resultado = 0;
